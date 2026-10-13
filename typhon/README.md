@@ -1,6 +1,6 @@
 # TYPHON — Hybrid Rules + ML + GenAI Alert Triage and SAR Drafting
 
-**Status: scoped and dataset generated** — 5,000-row labelled synthetic dataset produced (98 accounts, PostgreSQL schema, reproducible generator).
+**Status: data layer and rules layer built and verified** — 5,000-row labelled synthetic dataset (98 accounts), PostgreSQL schema, and a five-rule SQL monitoring layer, run end-to-end against a live database and checked against the dataset's own ground truth: **100% precision and recall** across all five rules (see [`docs/TYPHON_Build_Notes.md`](./docs/TYPHON_Build_Notes.md)). ML scoring, GenAI layer, and Tableau dashboard not yet built.
 
 ## What it is
 

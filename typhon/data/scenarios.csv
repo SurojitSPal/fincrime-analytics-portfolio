@@ -1,0 +1,6 @@
+scenario_id,typology,description,threshold_amount,window_days,ratio_param,count_param
+R01,structuring,"Cumulative credits near reporting ceiling, clustered within a short window",50000,10.0,,4.0
+R02,rapid_movement_passthrough,Large credit followed by a near-equal debit within 36 hours,80000,,0.85,
+R03,mule_inflow_fanin,Many-to-one inbound fan-in from distinct counterparties within a window,2000,30.0,,12.0
+R04,dormant_reactivation,"Account inactive, then a short burst of activity",15000,10.0,,5.0
+R05,threshold_hugging,Repeated transactions clustered just under a round-number threshold,100000,,0.9,8.0
