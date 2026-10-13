@@ -1,0 +1,53 @@
+# ============================================================
+# DATA GOVERNANCE GUARD — see docs/DATA-GOVERNANCE.md
+# Real customer / complaint / transaction data must NEVER be
+# committed. These patterns are a safety net, not a substitute
+# for manually verifying every data file before `git add`.
+# ============================================================
+data/raw/
+data/real/
+data/local/
+data/private/
+**/raw_data/
+**/*real*.csv
+**/*real*.xlsx
+**/*ncrp*.csv
+**/*ncrp*.xlsx
+**/*cfcfrms*.csv
+*.env
+*.env.*
+secrets.*
+credentials.*
+*_SECRET*
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ============================================================
+# Database
+# ============================================================
+*.db
+*.sqlite3
+*.bak
+pgdata/
+
+# ============================================================
+# Streamlit / notebooks / OS / editor noise
+# ============================================================
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
