@@ -1,6 +1,8 @@
 # ARGUS — Advanced Risk & Graph Unified System
 
-**Status: in build** (target submission late Nov / early Dec 2026)
+**Status: design locked, code build in progress** (target submission late Nov / early Dec 2026)
+
+Full project overview, naming rationale, real-dataset findings, architecture, toolset, and interview defence Q&A: [`docs/ARGUS_Project_Overview.md`](./docs/ARGUS_Project_Overview.md).
 
 ## What it is
 

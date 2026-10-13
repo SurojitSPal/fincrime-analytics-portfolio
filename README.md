@@ -20,10 +20,10 @@ Each project follows a mythological naming convention and is built end-to-end �
 
 | Project | Focus | Status |
 |---|---|---|
-| [`argus/`](./argus) | Cyber-fraud network intelligence — mule-network reconstruction from complaint data, graph analytics, syndicate detection | In build |
-| [`themis/`](./themis) | Transaction-monitoring threshold effectiveness and tuning — calibration evidence, coverage/gap analysis, interactive tuning console | Blueprint locked |
-| [`typhon/`](./typhon) | Hybrid rules + ML + GenAI alert triage and SAR-drafting framework | Scoped, dataset generated |
-| [`nemesis/`](./nemesis) | Adversarial robustness red-teaming of TYPHON's detection logic | Unit 1 delivered |
+| [`argus/`](./argus) | Cyber-fraud network intelligence — mule-network reconstruction from complaint data, graph analytics, syndicate detection | Design locked, full project overview + defence pack in repo; code build in progress |
+| [`themis/`](./themis) | Transaction-monitoring threshold effectiveness and tuning — calibration evidence, coverage/gap analysis, interactive tuning console | Full 22-section Solution Blueprint v1.1 locked and in repo; build not yet started |
+| [`typhon/`](./typhon) | Hybrid rules + ML + GenAI alert triage and SAR-drafting framework | Spec locked (5,000-row / 98-account synthetic dataset, PostgreSQL schema); generator code to be (re)built |
+| [`nemesis/`](./nemesis) | Adversarial robustness red-teaming of TYPHON's detection logic | Unit 1 spec locked (four-tab workbook); workbook to be (re)built |
 
 See [`docs/PORTFOLIO-OVERVIEW.md`](./docs/PORTFOLIO-OVERVIEW.md) for the full narrative, toolset rationale, and the division of labour behind how this portfolio is built.
 

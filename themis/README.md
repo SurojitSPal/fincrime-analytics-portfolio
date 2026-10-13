@@ -1,6 +1,8 @@
 # THEMIS — Transaction Monitoring Threshold Effectiveness and Tuning
 
-**Status: Solution Blueprint v1.1 locked (21 sections)** — build scheduled to begin after ARGUS submission, sharing ARGUS's ingestion/ETL foundation.
+**Status: Solution Blueprint v1.1 locked (22 sections)** — build scheduled to begin after ARGUS submission, sharing ARGUS's ingestion/ETL foundation.
+
+Full blueprint: [`docs/THEMIS_Solution_Blueprint_v1.1.md`](./docs/THEMIS_Solution_Blueprint_v1.1.md).
 
 ## What it is
 
